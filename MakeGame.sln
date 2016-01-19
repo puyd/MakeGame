@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateSprite", "CreateSprite\CreateSprite.csproj", "{DA3C6BBA-48C1-40EB-82B8-33D1DE8720F5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GameEng", "GameEng\", "{EBB75062-19B9-4876-8541-676CC49F0CF1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_30975"
+		Debug.AspNetCompiler.PhysicalPath = "GameEng\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30975\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_30975"
+		Release.AspNetCompiler.PhysicalPath = "GameEng\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_30975\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "30975"
+		SlnRelativePath = "GameEng\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA3C6BBA-48C1-40EB-82B8-33D1DE8720F5}.Debug|x86.ActiveCfg = Debug|x86
+		{DA3C6BBA-48C1-40EB-82B8-33D1DE8720F5}.Debug|x86.Build.0 = Debug|x86
+		{DA3C6BBA-48C1-40EB-82B8-33D1DE8720F5}.Release|x86.ActiveCfg = Release|x86
+		{DA3C6BBA-48C1-40EB-82B8-33D1DE8720F5}.Release|x86.Build.0 = Release|x86
+		{EBB75062-19B9-4876-8541-676CC49F0CF1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EBB75062-19B9-4876-8541-676CC49F0CF1}.Debug|x86.Build.0 = Debug|Any CPU
+		{EBB75062-19B9-4876-8541-676CC49F0CF1}.Release|x86.ActiveCfg = Debug|Any CPU
+		{EBB75062-19B9-4876-8541-676CC49F0CF1}.Release|x86.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
