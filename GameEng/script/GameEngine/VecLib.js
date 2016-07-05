@@ -92,9 +92,6 @@
 
                 var param = new Array();
 
-                this.do = function (ctx) {
-                }
-
                 function getFunc(id) {
                     for (var i = 0; i < func.length; i = i + 2) {
                         if (func[i] == id.toUpperCase()) {

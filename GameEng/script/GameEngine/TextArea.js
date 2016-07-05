@@ -1,8 +1,8 @@
-﻿define(["GameEngine/Window"], function (_Window) {
+﻿define(["GameEngine/Window","Log"], function (_Window) {
     return (function (parent,prop) {
 
         _Window.apply(this, [parent, prop]);
-
+        
         var self = this;
         var output = null;
 
